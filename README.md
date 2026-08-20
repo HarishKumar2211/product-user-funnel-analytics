@@ -265,32 +265,6 @@ The project is presented through three dashboard pages:
 ![ Cart & Checkout Abandonment](Images/Cart-Checkout-Analysis-PowerBI.png)
 ------------------------------------------------------------------------
 
-# Suggested Repository Structure
-
-``` text
-Product-User-Funnel-Analytics/
-│
-├── data/
-│   └── funnel_data.csv
-    └──
-│
-├── python/
-│   └── funnel_analysis.ipynb
-│
-├── powerbi/
-│   └── Product_User_Funnel_Analytics.pbix
-│
-├── images/
-│   ├── executive_overview.png
-│   ├── acquisition_campaign.png
-│   └── cart_checkout_abandonment.png
-│
-├── README.md
-└── requirements.txt
-```
-
-------------------------------------------------------------------------
-
 # Skills Demonstrated
 
 -   Data cleaning and preparation
