@@ -64,13 +64,7 @@ The analysis aims to answer:
 
 ## 1. Overall Funnel Performance
 
-  Funnel Stage           Sessions   Conversion from Start
-  -------------------- ---------- -----------------------
-  Website Visit           120,000                 100.00%
-  Product View             77,870                  64.89%
-  Add to Cart              27,156                  22.63%
-  Checkout Started         16,234                  13.53%
-  Purchase Completed        8,181               **6.82%**
+  ![Overall Funnel Performance](Images/overall-funnel-analysis.png)
 
 **Key finding:** Only **6.82%** of website sessions resulted in a
 completed purchase.
@@ -79,12 +73,8 @@ completed purchase.
 
 ## 2. Funnel Drop-off Analysis
 
-  Transition              Stage Conversion     Drop-off
-  --------------------- ------------------ ------------
-  Website → Product                 64.89%       35.11%
-  Product → Cart                    34.87%   **65.13%**
-  Cart → Checkout                   59.78%       40.22%
-  Checkout → Purchase               50.39%   **49.61%**
+  ![Funnel Drop-off Analysis](Images/funnel-dropoff-rate.png)
+
 
 **Key finding:** Product → Cart is the biggest bottleneck, followed by
 Checkout → Purchase.
@@ -93,10 +83,7 @@ Checkout → Purchase.
 
 ## 3. Funnel Analysis by Device
 
-  Device      Sessions   Purchases   Conversion Rate
-  --------- ---------- ----------- -----------------
-  Desktop       35,994       2,488             6.91%
-  Mobile        84,006       5,693             6.78%
+  ![Funnel Analysis by Device](Images/funnel-device.png)
 
 **Key finding:** Mobile has much higher traffic, but conversion rates
 are very similar to Desktop. Device does not appear to be the main
@@ -106,12 +93,8 @@ driver of funnel performance.
 
 ## 4. Funnel Analysis by Acquisition Channel
 
-  Channel      Sessions   Purchases   Conversion Rate      Revenue
-  ---------- ---------- ----------- ----------------- ------------
-  Email          12,092         884         **7.31%**       ₹1.81M
-  Organic        35,946       2,448             6.81%       ₹5.09M
-  Paid Ads       53,891       3,619             6.72%   **₹7.54M**
-  Social         18,071       1,230             6.81%       ₹2.58M
+![ Funnel Analysis by Acquisition Channel](Images/funnel-channel.png)
+
 
 **Key findings:** - Paid Ads generates the most traffic, purchases and
 revenue. - Email has the highest conversion rate at 7.31%. - Channel
@@ -121,11 +104,8 @@ conversion differences are relatively small.
 
 ## 5. Campaign Performance Analysis
 
-  Campaign       Sessions   Purchases   Conversion Rate      Revenue
-  ------------ ---------- ----------- ----------------- ------------
-  Discount         60,121       4,107             6.83%   **₹8.53M**
-  Influencer       23,815       1,626             6.83%       ₹3.37M
-  New Launch       36,064       2,448             6.79%       ₹5.12M
+  ![ Campaign Performance Analysis](Images/campaign-funnel.png)
+
 
 **Key findings:** - Discount campaigns generate the highest traffic,
 purchases and revenue. - New Launch has the highest revenue per session
@@ -149,13 +129,11 @@ ranging from 6.79% to 6.83%.
 
 ## 6. Cart Abandonment Analysis
 
-  Metric                          Result
-  ------------------------- ------------
-  Cart Sessions                   27,156
-  Abandoned Carts                 10,922
-  Completed Cart Sessions         16,234
-  Cart Abandonment Rate       **40.22%**
-  Cart Completion Rate            59.78%
+ -  Cart Sessions -->               27,156
+ -  Abandoned Carts -->             10,922
+ -  Completed Cart Sessions -->     16,234
+ - Cart Abandonment Rate -->       **40.22%**
+ - Cart Completion Rate -->          59.78%
 
 ### Segment Findings
 
@@ -179,8 +157,7 @@ than a problem isolated to one segment.
 
 ## 7. Checkout Abandonment Analysis
 
-  Metric                            Result
-  --------------------------- ------------
+
   Checkout Sessions                 16,234
   Completed Purchases                8,181
   Abandoned Checkouts                8,053
@@ -307,6 +284,7 @@ Product-User-Funnel-Analytics/
 │
 ├── data/
 │   └── funnel_data.csv
+    └──
 │
 ├── python/
 │   └── funnel_analysis.ipynb
