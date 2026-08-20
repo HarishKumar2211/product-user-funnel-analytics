@@ -114,26 +114,12 @@ ranging from 6.79% to 6.83%.
 
 ### Campaign Funnel Performance
 
-  ------------------------------------------------------------------------
-  Campaign          Website → Product → Cart         Cart →     Checkout →
-                      Product                      Checkout       Purchase
-  ------------ -------------- -------------- -------------- --------------
-  Discount             64.79%         34.77%         59.72%     **50.79%**
-
-  Influencer           64.76%     **35.43%**         59.29%         50.19%
-
-  New Launch       **65.15%**         34.69%     **60.21%**         49.89%
-  ------------------------------------------------------------------------
-
+  ![ Campaign Funnel Performance](Images/user-funnel-analysis.png)
 ------------------------------------------------------------------------
 
 ## 6. Cart Abandonment Analysis
 
- -  Cart Sessions -->               27,156
- -  Abandoned Carts -->             10,922
- -  Completed Cart Sessions -->     16,234
- - Cart Abandonment Rate -->       **40.22%**
- - Cart Completion Rate -->          59.78%
+  ![ Cart Abandonment Analysis](Images/cart-abandonment-analysis.png)
 
 ### Segment Findings
 
@@ -157,12 +143,8 @@ than a problem isolated to one segment.
 
 ## 7. Checkout Abandonment Analysis
 
+  ![ Checkout Abandonment Analysis](Images/checkout-abandonment-analysis.png)
 
-  Checkout Sessions                 16,234
-  Completed Purchases                8,181
-  Abandoned Checkouts                8,053
-  Checkout Abandonment Rate     **49.61%**
-  Checkout Completion Rate          50.39%
 
 ### Segment Findings
 
@@ -183,7 +165,7 @@ purchase.
 
 ------------------------------------------------------------------------
 
-# 💡 Overall Business Insights
+# Overall Business Insights
 
 1.  **Product → Cart is the biggest funnel bottleneck**, with a 65.13%
     drop-off.
@@ -252,6 +234,9 @@ The project is presented through three dashboard pages:
 -   Sessions lost
 -   Stage conversion %
 
+ ![  Executive Funnel Overview](Images/Executive-Overview-PowerBI.png)
+  
+
 ### Page 2 --- Acquisition & Campaign Performance
 
 -   Traffic by acquisition channel
@@ -261,6 +246,8 @@ The project is presented through three dashboard pages:
 -   Campaign performance
 -   Campaign funnel Performance
 -   Top Channel and Top campaign 
+
+ ![ Acquisition & Campaign Performance](Images/Acquisition-Segmentation-PowerBI.png)
 
 ### Page 3 --- Cart & Checkout Abandonment
 
@@ -274,10 +261,11 @@ The project is presented through three dashboard pages:
 -   Abandonment by channel
 -   Abandonment by campaign
 -   New vs Returning users
-
+  
+![ Cart & Checkout Abandonment](Images/Cart-Checkout-Analysis-PowerBI.png)
 ------------------------------------------------------------------------
 
-# 📂 Suggested Repository Structure
+# Suggested Repository Structure
 
 ``` text
 Product-User-Funnel-Analytics/
@@ -303,7 +291,7 @@ Product-User-Funnel-Analytics/
 
 ------------------------------------------------------------------------
 
-# 🚀 Skills Demonstrated
+# Skills Demonstrated
 
 -   Data cleaning and preparation
 -   Exploratory Data Analysis
@@ -323,7 +311,7 @@ Product-User-Funnel-Analytics/
 
 ------------------------------------------------------------------------
 
-## ⭐ Final Takeaway
+## Final Takeaway
 
 The analysis shows that the biggest opportunities are **improving
 Product → Cart conversion and reducing Checkout → Purchase
